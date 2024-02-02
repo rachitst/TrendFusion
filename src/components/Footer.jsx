@@ -18,7 +18,6 @@
 
 // export default Footer;
 
-import { Facebook, GitHub, Instagram, MailOutline, Phone, Room, Twitter } from '@material-ui/icons'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -94,18 +93,6 @@ export const Footer = () => {
             <Description>This is my react project on ecommerce. 
             In this website I have used React components for styling. This website is made using React JS.</Description>
             <SocialContainer>
-            <SocialIcon color='3B5999'>
-                <Facebook/>
-            </SocialIcon>
-            <SocialIcon color='E4405F'>
-                <Instagram/>
-            </SocialIcon>
-            <SocialIcon color='55ACEE'>
-                <GitHub/>
-            </SocialIcon>
-            <SocialIcon color='E60023'>
-                <Twitter/>
-            </SocialIcon>
             </SocialContainer>
         </Left>
         <Center>
